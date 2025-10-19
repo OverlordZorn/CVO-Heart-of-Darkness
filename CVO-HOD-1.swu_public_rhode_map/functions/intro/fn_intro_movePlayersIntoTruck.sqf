@@ -20,7 +20,7 @@ if (!is3DENPreview) then { _players = _players select { ! ( _x in ( allCurators 
 
 if (_players isEqualTo []) then {_players  = [player] };
 
-[_players] call mission_fnc_init_distributeHauls;
+[_players] call mission_fnc_intro_distributeHauls;
 
 private _trucks = truck;
 [

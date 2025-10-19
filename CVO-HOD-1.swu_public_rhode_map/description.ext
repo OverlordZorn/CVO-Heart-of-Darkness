@@ -21,6 +21,7 @@ briefingName = "Operation Quiet Entrance"; // The Mission name with operation di
 overviewText = "A group of irregulars smuggle weapons into Mutambara province"; // The text above the picture in the mission selection menu
 
 
+briefing = 0;
 
 // ###### Default Stuff - Dont Touch unless really needed
 allowFunctionsLog = 1;

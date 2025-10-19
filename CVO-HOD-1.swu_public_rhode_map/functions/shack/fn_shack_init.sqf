@@ -47,7 +47,7 @@ private _aceAction = [
 if !(isServer) exitWith {};
 
 // 0. Hide Shack Objects
-// ["shack_after", "HIDE_ON"] call cvo_common_fnc_layerObjects;
+["shack_after", "HIDE_ON"] call cvo_common_fnc_layerObjects;
 
 
 // 0. Get ShackLightsource Placeholder Position and store in Public GVAR
